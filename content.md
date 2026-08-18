@@ -1,6 +1,8 @@
-`scipy.special.cbrt` computes the cube roots of individual values, or of NumPy arrays in an elementwise fashion. It is faster and more numerically stable than using `x ** (1/3)`.
+`scipy.special.cbrt`{.python} computes the cube roots of individual values, or collections of numbers
 
-## Basic cube root
+## Individual Numbers
+
+`cbrt`{.python} can calculate the cube root of a single number, including negative numbers.
 
 ```py-cell
 from scipy.special import cbrt
@@ -13,13 +15,21 @@ print("cbrt(-8) =", cbrt(-8))
 
 ## Element-wise on arrays
 
+`cbrt`{.python} can also be used to calculate the cube roots of a NumPy array, or other collection of numbers (such as a list). The function will return a NumPy array of the same shape, with the cube roots of each element.
+
 ```py-cell
 import numpy as np
 from scipy.special import cbrt
 
-# Array of values
-x = np.array([1, 8, 27, 64, 125])
-roots = cbrt(x)
-print("Values:", x)
+# NumPy array of values
+numpy_input = np.array([1, 8, 27, 64, 125])
+roots = cbrt(numpy_input)
+print("NumPy Input:", numpy_input)
+print("Cube roots:", roots)
+
+# List of values
+list_input = [1, 8, 27, 64, 125]
+roots = cbrt(list_input)
+print("List Input:", list_input)
 print("Cube roots:", roots)
 ```
