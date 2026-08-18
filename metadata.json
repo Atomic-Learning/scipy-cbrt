@@ -1,22 +1,28 @@
 {
-    "title": "",
-    "slug": "",
-    "description": "",
-    "authors": [
-        "",
-        ""
-    ],
-    "tags": [
-        "",
-        ""
-    ],
-    "duration": 0,
-    "prerequisites": [
-        "",
-        ""
-    ],
-    "related": [
-        "",
-        ""
-    ]
+  "title": "SciPy: Cube Root",
+  "slug": "scipy-cbrt",
+  "description": "Use scipy.special.cbrt to compute element-wise cube roots efficiently.",
+  "authors": [
+    "chris-cooling",
+    "giorgia-del-missier"
+  ],
+  "tags": [
+    "python",
+    "scipy"
+  ],
+  "duration": 2,
+  "prerequisites": [
+    "scipy-special-functions",
+    "python-print",
+    "programming-calling-functions", 
+    "python-importing-from-submodules-in-packages",
+    "numpy-importing-numpy",
+    "numpy-arrays"],
+  "related": [
+    "scipy-permutations"
+  ],
+  "python_pacakages": [
+    "scipy",
+    "numpy"
+  ]
 }
