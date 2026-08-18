@@ -1,5 +1,5 @@
 {
-  "title": "SciPy: Cube Root",
+  "title": "SciPy: Cube Roots with cbrt()",
   "slug": "scipy-cbrt",
   "description": "Use scipy.special.cbrt to compute element-wise cube roots efficiently.",
   "authors": [
