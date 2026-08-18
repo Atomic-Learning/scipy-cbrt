@@ -13,7 +13,6 @@
   "duration": 2,
   "prerequisites": [
     "scipy-special-functions",
-    "python-print",
     "programming-calling-functions", 
     "python-importing-from-submodules-in-packages",
     "numpy-arrays"],
