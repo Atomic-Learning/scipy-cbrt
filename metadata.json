@@ -19,7 +19,6 @@
     "numpy-importing-numpy",
     "numpy-arrays"],
   "related": [
-    "scipy-permutations"
   ],
   "python_pacakages": [
     "scipy",
