@@ -1,4 +1,4 @@
-`scipy.special.cbrt`{.python} computes the cube roots of individual values, or collections of numbers
+[`scipy.special.cbrt`{.python}](https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.cbrt.html) computes the cube roots of individual values, or collections of numbers
 
 ## Individual Numbers
 
