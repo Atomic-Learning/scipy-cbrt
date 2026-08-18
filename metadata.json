@@ -15,6 +15,7 @@
     "scipy-special-functions",
     "programming-calling-functions", 
     "python-importing-from-submodules-in-packages",
+    "python-lists-introduction",
     "numpy-arrays"],
   "related": [
   ],
